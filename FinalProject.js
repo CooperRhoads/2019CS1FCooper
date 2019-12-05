@@ -5,5 +5,5 @@ bezier:{curviness: 3.5,values:[{x:520,y:-300},{x:-diameter/40,y:diameter/20},{x:
 ,ease:Power9.easeNone,repeat:5});*/
 
 TweenMax.to("#electron2", 5 ,{
-bezier:{curviness:3.0,values:[{x:520,y:-300},{x:-diameter/40,y:diameter/20},{x:520,y:diameter/20},{x:diameter/40,y:diameter/20},{x:520,y:520}]}
+bezier:{curviness:3.0,values:[{x:0,y:0},{x:-diameter/2,y:-diameter/2},{x:0,y:0}]}
 ,ease:Power0.easeNone,repeat:-1});
