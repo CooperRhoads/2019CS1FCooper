@@ -1,9 +1,29 @@
-var diameter = 400 ; 
+var diameter = 228 ; 
 
-/*TweenMax.to("#electron1",0.5,{rotation:-90,delay:0.5, ease:Sine.easeOut});
-bezier:{curviness: 3.5,values:[{x:520,y:-300},{x:-diameter/40,y:diameter/20},{x:520,y:diameter/20},{x:diameter/40,y:diameter/20},{x:520,y:-300}]}
-,ease:Power9.easeNone,repeat:5});*/
+TweenMax.to("#electron1", 5 ,{
+bezier:{curviness:1.5,values:[
+    
+    {x:0,y:0},
+    {x:diameter/2,y:diameter/2},
+    {x:0,y:diameter},
+    {x:-diameter/2,y:diameter/2},
+    {x:0,y:0}
+
+]}
+,ease:Power0.easeNone,repeat:-1});
+
+
+
+
 
 TweenMax.to("#electron2", 5 ,{
-bezier:{curviness:3.0,values:[{x:0,y:0},{x:-diameter/2,y:-diameter/2},{x:0,y:0}]}
+bezier:{curviness:1.5,values:[
+    
+    {x:0,y:0},
+    {x:-diameter/2,y:-diameter/2},
+    {x:0,y:-diameter},
+    {x:diameter/2,y:-diameter/2},
+    {x:0,y:0}
+
+]}
 ,ease:Power0.easeNone,repeat:-1});
