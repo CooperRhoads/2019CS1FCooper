@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+
+.nucleus{
+    width:40;
+    height:40;
+    position:absolute;
+}
+
+nucleus 1{
+    background:url('proton.png') no-repeat center center;
+    left:75px;
+    top:80px;
+    background-size:contain;
+}
+
+nucleus 2{
+    background:url('proton.png') no-repeat center center;
+    left:75px;
+    top:80px;
+    background-size:contain;
+}
+
+nucleus 3{
+    background:url('protron.png') no-repeat center center;
+    left:130x;
+    top:135px;
+    background-sizing contain;
+}
+
+nucleus 4{
+    background:url('protron.png') no-repeat center center;
+    left:410x;
+    top:315px;
+    background-sizing contain;
+}
+
+nucleus 5{
+    background:url('protron.png') no-repeat center center;
+    left:360x;
+    top:315px;
+    background-sizing contain;
+}
+
+nucleus 6{
+    background:url('protron.png') no-repeat center center;
+    left:210x;
+    top:455px;
+    background-sizing contain;
+}
+
+nucleus 7{
+    background:url('neutron.png') no-repeat center center;
+    left:340x;
+    top:225px;
+    background-sizing contain;
+}
+
+nucleus 8{
+    background:url('neutron.png') no-repeat center center;
+    left:310x;
+    top:215px;
+    background-sizing contain;
+}
+
+nucleus 9{
+    background:url('neutron.png') no-repeat center center;
+    left:210x;
+    top:315px;
+    background-sizing contain;
+}
+
+nucleus 10{
+    background:url('neutron.png') no-repeat center center;
+    left:140x;
+    top:2305px;
+    background-sizing contain;
+}
+
+nucleus 11{
+    background:url('neutron.png') no-repeat center center;
+    left:210x;
+    top:215px;
+    background-sizing contain;
+}
+
+nucleus 12{
+    background:url('neutron.png') no-repeat center center;
+    left:170x;
+    top:155px;
+    background-sizing contain;
+}
+
+.electron{
+    widows:40px;
+    height:40px:
+    position:absolute;
+}
+
+electron 1{
+    background:url('electron.png') no-repeat center center;
+    left:95px;
+    top:-20px;
+    background-size:contain;
+}
+
+electron 2{
+    background:url('electron.png') no-repeat center center;
+    left:-95px;
+    top:20px;
+    background-sizing:contain;
+}
+
+electron 3{
+    background:url('electron.png') no-repeat center center;
+    left:-47.5px;
+    top:10px;
+    background-sizing:contain;
+}
+
+electron 4{
+    background:url('electron.png') no-repeat center center;
+    left:47.5px;
+    top:-10px;
+    background-sizing:contain;
+}
