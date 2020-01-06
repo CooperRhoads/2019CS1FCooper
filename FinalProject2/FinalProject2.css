@@ -123,3 +123,14 @@ electron 4{
     top:-10px;
     background-sizing:contain;
 }
+
+.circle{
+    width:230px;
+    height:230px;
+    border-radius:50%;
+    border:2px solid #000;
+    position: absolute;
+    transform-origin:center;
+    left: 90px;
+    top: 40px;
+    box-sizing: border-box;
